@@ -59,7 +59,6 @@ function mode(arr)
     if(!obj[c]){obj[c]=1}
     else{obj[c]+=1}
   }  
-  console.log(obj,"obj")
   for(let key in obj)
   {
       if(obj[key]>max){max=obj[key];final=key}
