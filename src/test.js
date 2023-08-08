@@ -12,6 +12,7 @@ data.forEach((item)=>{
  if(!gammaObj[item.Alcohol]){gammaObj[item.Alcohol]=[gamma]}
  else{gammaObj[item.Alcohol].push(gamma)}
 })
+console.log(alcoholObj)
 
 for(let alcohol in alcoholObj)
 {
@@ -45,10 +46,10 @@ function median(arr)
 {
   arr = arr.sort();
   if(arr.length%2!==0)
-  {let x = (arr.length+1)/2; return arr[x]}
+  {let x = (arr.length+1)/2; return arr[x-1]}
   
 let x = Math.round(((arr.length/2)+ ((arr.length/2)+1))/2)
-  return arr[x];
+  return arr[x-1];
 }
 
 function mode(arr)
@@ -64,7 +65,7 @@ function mode(arr)
       if(obj[key]>max){max=obj[key];final=key}
   }
 
-  return parseInt(final);
+  return final;
 }
 
 export  {resultAlcohol,resultGamma}
