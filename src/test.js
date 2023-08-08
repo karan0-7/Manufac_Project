@@ -12,7 +12,6 @@ data.forEach((item)=>{
  if(!gammaObj[item.Alcohol]){gammaObj[item.Alcohol]=[gamma]}
  else{gammaObj[item.Alcohol].push(gamma)}
 })
-console.log(alcoholObj)
 
 for(let alcohol in alcoholObj)
 {
