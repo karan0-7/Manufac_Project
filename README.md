@@ -25,6 +25,9 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
+![Flavanoids Data](https://github.com/karan0-7/Manufac_Project/assets/63366256/59bf3522-101f-44c2-8477-49c973620775)
 
-![Gamma Data](https://github.com/karan0-7/Manufac_Project/assets/63366256/71b7a5df-6283-4c04-b930-c3831f1c7bfe)
-![Flavanoids Data](https://github.com/karan0-7/Manufac_Project/assets/63366256/19ba0a39-2391-4df7-bced-95ca7638f9e3)
+
+![Gamma Data](https://github.com/karan0-7/Manufac_Project/assets/63366256/52c2d1e3-6bc4-44d5-a78d-0703391180ea)
+
+
